@@ -2,6 +2,9 @@
 title: "Understanding Gas Nominations and Commercial Cycles"
 author: "Eduardo Prud’homme"
 date: "2025-07-22"
+format: 
+  html: default
+  pdf: default
 categories: [SISTRANGAS, NAESB]
 image: "image.jpg"
 ---

@@ -102,14 +102,14 @@
     "href": "files_blog/qt11_02/index.html",
     "title": "Understanding Gas Nominations and Commercial Cycles",
     "section": "",
-    "text": "getwd()\n\n[1] \"/Users/fernandoprudhomme/Documents/gadex_r_2025/gadex_insights/files_blog/qt11_02\""
+    "text": "Natural gas scheduling in North America follows standardized commercial cycles defined by the North American Energy Standards Board (NAESB). These cycles structure how and when shippers submit nominations (requests to inject or withdraw gas) and how operators confirm and schedule these volumes. The main cycles are:\n• Timely Cycle: The primary scheduling window (day-ahead).\n• Evening Cycle: Allows for nomination revisions after the Timely cycle. in • Intraday Cycles 1–3: Provide opportunities to adjust flows closer to real time.\nCENAGAS has adopted these NAESB protocols to manage nominations in the Sistema de Transporte y Almacenamiento Nacional Integrado de Gas Natural (SISTRANGAS). Each cycle helps update the national operating program (POGN), aiming to match expected supply with demand as conditions evolve throughout the day."
   },
   {
     "objectID": "files_blog/qt11_02/index.html#commercial-cycles-and-naesb-protocols",
     "href": "files_blog/qt11_02/index.html#commercial-cycles-and-naesb-protocols",
     "title": "Understanding Gas Nominations and Commercial Cycles",
-    "section": "Commercial Cycles and NAESB Protocols",
-    "text": "Commercial Cycles and NAESB Protocols\nNatural gas scheduling in North America follows standardized commercial cycles defined by the North American Energy Standards Board (NAESB). These cycles structure how and when shippers submit nominations (requests to inject or withdraw gas) and how operators confirm and schedule these volumes. The main cycles are:\n• Timely Cycle: The primary scheduling window (day-ahead).\n• Evening Cycle: Allows for nomination revisions after the Timely cycle. in • Intraday Cycles 1–3: Provide opportunities to adjust flows closer to real time.\nCENAGAS has adopted these NAESB protocols to manage nominations in the Sistema de Transporte y Almacenamiento Nacional Integrado de Gas Natural (SISTRANGAS). Each cycle helps update the national operating program (POGN), aiming to match expected supply with demand as conditions evolve throughout the day."
+    "section": "",
+    "text": "Natural gas scheduling in North America follows standardized commercial cycles defined by the North American Energy Standards Board (NAESB). These cycles structure how and when shippers submit nominations (requests to inject or withdraw gas) and how operators confirm and schedule these volumes. The main cycles are:\n• Timely Cycle: The primary scheduling window (day-ahead).\n• Evening Cycle: Allows for nomination revisions after the Timely cycle. in • Intraday Cycles 1–3: Provide opportunities to adjust flows closer to real time.\nCENAGAS has adopted these NAESB protocols to manage nominations in the Sistema de Transporte y Almacenamiento Nacional Integrado de Gas Natural (SISTRANGAS). Each cycle helps update the national operating program (POGN), aiming to match expected supply with demand as conditions evolve throughout the day."
   },
   {
     "objectID": "files_blog/qt11_02/index.html#the-case-of-nodes-v025-cactus-and-v061-ramones",
