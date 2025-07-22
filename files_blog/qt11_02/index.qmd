@@ -38,9 +38,7 @@ pacman::p_load(
   writexl
   )
 
-getwd()
-
-plots_nomina <- readRDS("index_files/qt11_02_plots_nomina_copy.rds")
+plots_nomina <- readRDS("folder/qt11_02_plots_nomina copy.rds")
 ```
 
 ## Commercial Cycles and NAESB Protocols
