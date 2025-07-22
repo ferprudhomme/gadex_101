@@ -1,0 +1,19 @@
+---
+title: "Welcome"
+---
+
+At **Gadex**, **Intelligence in Energy**, we deliver structural insights into Mexico's natural gas and power markets. Drawing on public data, advanced modeling, and regulatory expertise, our mission is to provide transparent, data-driven analysis that supports informed decision-making across the energy value chain.
+
+Gadex is led by **Eduardo Prud'homme**, former pipeline network operator and regulatory economist, with deep expertise in ratemaking, infrastructure, and market design.
+
+We are proud to be partners with [**Enix**](https://enix.com.mx/socios.enix.html), a multidisciplinary firm of lawyers, economists, engineers---and former energy regulators. This partnership strengthens our capacity to provide comprehensive, high-level intelligence across the legal, technical, and policy dimensions of Mexico's energy sector.
+
+Here you'll find:
+
+-   **Visual reports** on natural gas flows and infrastructure
+
+-   **In-depth commentary** on regulation and market structure
+
+-   **Quantitative analysis** of tariffs, contracts, prices, and system operations
+
+Our goal is to contribute to a better understanding of Mexico's evolving energy sector by sharing clear, structured insights with professionals, policymakers, analysts, and decision-makers.

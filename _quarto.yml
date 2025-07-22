@@ -1,0 +1,27 @@
+project:
+  type: website
+  
+website:
+  title: "Gadex Insights"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: 01_today.qmd
+        text: Today Insights
+      - href: index_blog.qmd
+        text: Blog
+      - href: index_talks.qmd
+        text: Talks
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+editor: visual
+

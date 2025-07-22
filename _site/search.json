@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Eduardo Prud’homme",
+    "section": "",
+    "text": "Eduardo Prud’homme is a Partner at Gadex: Energy Intelligence, specializing in structural analysis of Mexico’s natural gas and power markets. With a unique blend of experience as a former pipeline network operator and deep expertise in ratemaking and regulatory economics, Eduardo provides data-driven insights into infrastructure, system operations, tariffs, and market design. When he’s not building quantitative models or writing analytical content, he enjoys cycling and walking with his Labrador and Border Collie."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Eduardo Prud’homme",
+    "section": "Education",
+    "text": "Education\nEl Colegio de México (Colmex) — Mexico City, Mexico\nMaster’s in Economics | September 1994 – June 1996\nNational Autonomous University of Mexico (UNAM) — Mexico City, Mexico\nBachelor’s in Actuarial Science | November 1989 – April 1993"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Eduardo Prud’homme",
+    "section": "Experience",
+    "text": "Experience\nGadex | Chief Officer | February 2019 to the present\nNatural Gas National Control Center (CENAGAS)\nChief Officer, Independent System Operator | July 2015 - February 2019\nEnergy Regulatory Commission (CRE)\nChief Economist - Director of Tariffs | March 2001 – June 2015"
+  },
+  {
+    "objectID": "index_talks.html",
+    "href": "index_talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nMay 10, 2025\n\n\nSome concepts (1)\n\n\nEduardo Prud’homme\n\n\n\n\n\n\nMar 28, 2025\n\n\nPost With Code\n\n\nHarlow Malloc\n\n\n\n\n\n\nMar 28, 2025\n\n\nMy policy\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "files_talks/talk_01/index.html",
+    "href": "files_talks/talk_01/index.html",
+    "title": "Some concepts (1)",
+    "section": "",
+    "text": "Nominations commence the gas flow in the pipeline. They encompass the request for the initiation of the transportation service. They specify the receipt and delivery locations for the request.\nThe receiving position is the point at which gas is transferred from the upstream pipeline to the carrying pipeline. The delivery site is the point when gas is transferred from the carrying pipeline to the downstream pipeline. Nominations encompass standard transportation, stipulations for supplementary fuel, and the notion of economic cycles.\n\n\n\n\n\n\n\n\n\nConfirmations occur among linked pipes to guarantee that gas will be transported onto the pipeline and subsequently extracted in accordance with the shipper’s nomination. The verifying parties utilize the information supplied in the nomination to reconcile the transactions that traverse the interconnect.\nScheduling involves the pipeline operator assessing the available gas flow against the required gas flow and organizing the requests in accordance with pipeline limitations. Segmentation and flow-day redirection are also addressed in Scheduling.\n\n\nA Make-up is a mechanism in which shipper brings gas onto pipeline in case of “imbalance due-pipeline” because shipper received more gas off of pipeline than it delivered onto pipeline."
+  },
+  {
+    "objectID": "files_talks/talk_01/index.html#make-up",
+    "href": "files_talks/talk_01/index.html#make-up",
+    "title": "Some concepts (1)",
+    "section": "",
+    "text": "A Make-up is a mechanism in which shipper brings gas onto pipeline in case of “imbalance due-pipeline” because shipper received more gas off of pipeline than it delivered onto pipeline."
+  },
+  {
+    "objectID": "files_blog/2017 structural change/index.html",
+    "href": "files_blog/2017 structural change/index.html",
+    "title": "Natural Gas Market Evolution Since December 2017",
+    "section": "",
+    "text": "A structural shift began in Mexico’s natural gas industry with the implementation of market liberalization policies. This included the unbundling of transportation and marketing activities, the introduction of open access and capacity reservation mechanisms, and the gradual removal of price regulation. Since December 2017, market data has reflected persistent changes in system dynamics. Flow records, pricing trends, capacity utilization, and node behavior reveal several trends that can be classified as structural."
+  },
+  {
+    "objectID": "files_blog/2017 structural change/index.html#introduction",
+    "href": "files_blog/2017 structural change/index.html#introduction",
+    "title": "Natural Gas Market Evolution Since December 2017",
+    "section": "",
+    "text": "A structural shift began in Mexico’s natural gas industry with the implementation of market liberalization policies. This included the unbundling of transportation and marketing activities, the introduction of open access and capacity reservation mechanisms, and the gradual removal of price regulation. Since December 2017, market data has reflected persistent changes in system dynamics. Flow records, pricing trends, capacity utilization, and node behavior reveal several trends that can be classified as structural."
+  },
+  {
+    "objectID": "files_blog/2017 structural change/index.html#flow-patterns-and-infrastructure-usage",
+    "href": "files_blog/2017 structural change/index.html#flow-patterns-and-infrastructure-usage",
+    "title": "Natural Gas Market Evolution Since December 2017",
+    "section": "Flow Patterns and Infrastructure Usage",
+    "text": "Flow Patterns and Infrastructure Usage\nOne of the most relevant patterns is the sustained shift in injection behavior at northern border points, particularly interconnections with Waha. The price spread between Waha and Henry Hub, along with dispatch conditions within the SISTRANGAS system, has directly influenced daily capacity allocation and infrastructure usage.\n\n🔹 Suggested Plot 1: Cross-border injection volumes (Waha, Agua Dulce, etc.)\nRoute Concentration and Operational Efficiency\nCENAGAS programming reports show an increasing concentration of flows along specific corridors, while other available routes exhibit repeated underutilization. When cross-referenced with regional demand levels and contracted capacities, the data points to a reallocation of supply routes with operational implications.\n🔹 Suggested Plot 3: Utilization rates by transport zone or route (stacked or line chart)\nRegulatory Adjustments\nUpdates to tariff schemes, access criteria, and permit issuance have introduced additional market-shaping variables. However, the evidence suggests that price signals and physical availability of capacity remain the primary drivers of system behavior.\nConclusion\nThe ongoing changes are better explained by structural conditions than by short-term or isolated events. Continued analysis of these variables is essential to anticipate operational risks, evaluate economic efficiency, and inform regulatory adjustments grounded in actual system performance."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html",
+    "href": "files_blog/modern energy/index.html",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "",
+    "text": "Natural gas is a vital energy source for millions of homes and businesses worldwide. As a relatively clean and efficient fuel, it powers electricity generation, heats homes, maintains essential services, and fuels industries.\nIn 2022, U.S. power generators produced about 4,243 million megawatt-hours (MWh) of electricity, with nearly 40% coming from natural gas. Similarly, in Mexico, gas-based technologies accounted for almost half of the country's 90,000 MW of installed power capacity in 2021. Across North America and beyond, vast networks of natural gas pipelines ensure this crucial resource flows seamlessly from production fields to end users."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html#the-backbone-of-energy-pipeline-networks",
+    "href": "files_blog/modern energy/index.html#the-backbone-of-energy-pipeline-networks",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "The Backbone of Energy: Pipeline Networks",
+    "text": "The Backbone of Energy: Pipeline Networks\nThe natural gas pipeline system is an intricate web of steel pipes—ranging from a few centimeters to several meters in diameter—that transports gas from production sites to distribution hubs. These pipelines link supply sources—such as gas wells, processing plants, international interconnections, and storage facilities—to major consumption centers via city gates, where local distribution begins.\n\nThe U.S. boasts the world's most extensive pipeline network, spanning over 340,000 kilometers.\nCanada follows with nearly 61,000 km of pipelines.\nMexico has a significant system exceeding 17,000 km.\n\nTogether, North America holds about 40% of the world's gas transmission pipelines, ensuring reliable energy delivery across the continent."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html#from-transmission-to-consumption",
+    "href": "files_blog/modern energy/index.html#from-transmission-to-consumption",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "From Transmission to Consumption",
+    "text": "From Transmission to Consumption\nGas transmission lines typically deliver fuel to city gates, where local distribution networks take over, supplying residential, commercial, and industrial customers. While these distribution systems directly serve end users, the real market dynamics—pricing, capacity allocation, and supply balancing—are driven by transmission pipelines.\nKey hubs and interconnections maintain system equilibrium, ensuring gas flows efficiently across regions and over time."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html#why-pipelines-matter",
+    "href": "files_blog/modern energy/index.html#why-pipelines-matter",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "Why Pipelines Matter",
+    "text": "Why Pipelines Matter\nNatural gas pipelines are the unsung heroes of modern life. In Mexico, electricity generation without natural gas would fall short of meeting demand. Beyond power, gas fuels:\n\nHeating & cooking in homes\nIndustrial production of glass, steel, cement, ceramics, and petrochemicals\nAlternative fuel for vehicles\n\nThe direct link between gas availability and economic prosperity is undeniable. That's why investing in skilled labor, technology, and transparent operations is crucial for ensuring affordable, secure, and uninterrupted gas supply."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html#ensuring-safe-and-efficient-operations",
+    "href": "files_blog/modern energy/index.html#ensuring-safe-and-efficient-operations",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "Ensuring Safe and Efficient Operations",
+    "text": "Ensuring Safe and Efficient Operations\nA well-functioning pipeline system requires:\n\nConstant monitoring (leak detection, pressure checks, flow control)\nSophisticated technology to manage complex injection and withdrawal points\nEffective commercial coordination to prevent imbalances, congestion, or underutilization\n\nIn North America, industry practices and regulations have shaped how market players interact. The North American Energy Standards Board (NAESB) plays a key role by defining protocols for capacity management and gas scheduling. Its daily gas nomination cycle—widely adopted in the U.S. and Canada—ensures seamless coordination across interconnected supply chains."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html#the-need-for-transparency-and-accountability",
+    "href": "files_blog/modern energy/index.html#the-need-for-transparency-and-accountability",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "The Need for Transparency and Accountability",
+    "text": "The Need for Transparency and Accountability\nPipelines are only as reliable as their operators. Lack of competition, restricted open access, or opaque contracts can disrupt affordability and supply stability—common challenges in transitioning gas markets like Mexico's.\nTo secure a stable energy future, the industry must prioritize:\n✅ Safety\n✅ Efficiency\n✅ Transparency\nNatural gas will remain a primary energy source for decades. Public awareness, data accessibility, and regulatory progress are essential to fostering a modern, responsible gas industry for future generations."
+  },
+  {
+    "objectID": "files_blog/modern energy/index.html#upcoming-mexicos-gas-pipeline-insights",
+    "href": "files_blog/modern energy/index.html#upcoming-mexicos-gas-pipeline-insights",
+    "title": "Natural Gas: The Lifeline of Modern Energy",
+    "section": "Upcoming: Mexico's Gas Pipeline Insights",
+    "text": "Upcoming: Mexico's Gas Pipeline Insights\nStay tuned as we unveil an in-depth report on Mexico's natural gas transportation network. We'll explore:\n🔹 Key injection points into the SISTRANGAS (Integrated National Transport and Storage System)\n🔹 Major private pipelines and their roles\n🔹 Gas processing plants, like the Burgos Gas Processing Complex—a critical hub supplying dry gas into SISTRANGAS\n\nInside Gas Processing: Adding Value to Raw Resources\nProcessing plants purify natural gas, removing impurities (water, CO₂, sulfur) and separating hydrocarbons into marketable products like:\n\nDry natural gas\nLiquefied Petroleum Gas (LPG)\nNatural Gas Liquids (NGLs)\nNaphtha\n\nThe Burgos Complex, operated by PEMEX, processes 1.2 billion cubic feet per day of wet gas, delivering vital products into Mexico's energy grid.\nComing next: Data-driven insights on gas flows, nominations, and market trends.\n(Source: CENAGAS electronic bulletin. Illustrated data reflects scheduled gas movements under NAESB protocols.)\n\n1 + 1\n\n[1] 2\n\n\nWhy follow this series?\nBecause understanding energy infrastructure means understanding energy security, competitiveness, and open access—issues that impact us all."
+  },
+  {
+    "objectID": "files_blog/sistrangas contracts/index.html",
+    "href": "files_blog/sistrangas contracts/index.html",
+    "title": "Firm Service Contract in SISTRANGAS",
+    "section": "",
+    "text": "A firm service contract in natural gas transportation is a binding agreement between a pipeline operator and a user (also known as a “shipper”). When a contract is firm, the operator is obligated to transport the shipper's gas up to a Maximum Daily Quantity (MDQ), regardless of demand from other users. This guarantees that the shipper can move gas up to their contracted capacity—even during system congestion—ensuring uninterrupted service.\nFirm service contracts also grant priority access in case of operational disruptions, giving these shippers an advantage over those with interruptible service contracts. In essence, a firm contract secures reserved pipeline capacity with a high degree of reliability.\n\nOpen Access & Capacity Allocation in Mexico's SISTRANGAS\nIn Mexico, the SISTRANGAS (Integrated Natural Gas Transportation and Storage System), operated by CENAGAS, has allowed shippers to reserve capacity since its first open season in 2017. During this process, each participating user was allocated an MDQ—a contractual parameter measured in energy terms that, when managed effectively, ensures flexible and continuous supply.\nAfter the initial capacity allocation, consumers had the option to:\n\nBecome direct SISTRANGAS users (entering a contract with CENAGAS).\nTransfer their capacity to intermediaries (gas marketers specializing in North America's complex supply logistics).\n\nRecently, CENAGAS launched a contract renewal process, ensuring service continuity for existing users and consumers. Learn more here.\n\n\nHow Shippers & Consumers Benefit\n\nShippers can use their reserved capacity to secure supply for their own needs or to serve their clients.\nConsumers (whether or not they act as shippers) can switch suppliers freely under Mexico's unbundled market structure, preventing them from being captive to a single pipeline owner.\n\nThanks to open access, firm contracts, and post-2017 renewals, end-users—historically dependent on PEMEX's monopoly—now have direct or indirect access to pipeline routes.\n\n\nKey Details on Contract Renewals\n\nThe renewal process only extends or terminates existing contracts—no changes will be made to:\n\nReserved capacity (MDQ)\nPrimary injection/withdrawal points\n\nHowever, the current capacity allocation structure warrants review.\n\n\n\nWho Holds the Capacity? A Snapshot\n\n30 total users (mostly gas marketers supplying multiple clients across SISTRANGAS).\nPEMEX Transformación Industrial (PTRI) remains the dominant shipper, despite market liberalization.\nSome large consumers (e.g., Braskem Idesa) manage their own transportation contracts.\n\n\n\nRegionalization & Contract Distribution\n\nSISTRANGAS can be divided into tariff zones (based on 2015 classifications).\nEach shipper's injection/withdrawal nodes indicate their market reach.\n45 active contracts (color-coded below), mostly held by PEMEX and CFE.\n\n\n\nContracted Capacities: Who Leads?\n\nThe largest firm capacity (6.8 Bcf/day total) is held under contract SBF/002/16—belonging to PEMEX TRI.\nOnly 6.3 Bcf/day was allocated via open season, suggesting CENAGAS has awarded additional firm capacity outside standard procedures.\n\n\n\nContract Expirations: What's Next?\nMost active contracts expire by mid-2023, with very few long-term agreements in place. This raises questions about future capacity allocation strategies.\n\n\nFinal Insight\nWhile Mexico's gas market has progressed since 2014, PEMEX still dominates. The renewal process will shape whether new players gain more influence—or if legacy shippers maintain control."
+  },
+  {
+    "objectID": "files_talks/post-with-code/index.html",
+    "href": "files_talks/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index_blog.html",
+    "href": "index_blog.html",
+    "title": "Open System",
+    "section": "",
+    "text": "This blog is a space for commentary and analysis that advocates for open access to infrastructure, transparent data, competitive energy markets, and institutions that serve an open society. Through structured insight and public information, we aim to contribute to a more informed, efficient, and accountable energy sector in Mexico.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nNatural Gas Market Evolution Since December 2017\n\n\n\nSISTRANGAS\n\n\n\n\n\n\n\nEduardo Prud’homme\n\n\nApr 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatural Gas: The Lifeline of Modern Energy\n\n\n\nSISTRANGAS\n\nregulatory\n\ngas flows\n\n\n\n\n\n\n\nEduardo Prud’homme\n\n\nMar 28, 2025\n\n\n\n\n\n\n\n\n\n\n\nFirm Service Contract in SISTRANGAS\n\n\n\nContracts\n\nCapacity\n\nSISTRANGAS\n\n\n\n\n\n\n\nEduardo Prud’homme\n\n\nMar 28, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "At Gadex, Intelligence in Energy, we deliver structural insights into Mexico’s natural gas and power markets. Drawing on public data, advanced modeling, and regulatory expertise, our mission is to provide transparent, data-driven analysis that supports informed decision-making across the energy value chain.\nGadex is led by Eduardo Prud’homme, former pipeline network operator and regulatory economist, with deep expertise in ratemaking, infrastructure, and market design.\nWe are proud to be partners with Enix, a multidisciplinary firm of lawyers, economists, engineers—and former energy regulators. This partnership strengthens our capacity to provide comprehensive, high-level intelligence across the legal, technical, and policy dimensions of Mexico’s energy sector.\nHere you’ll find:\n\nVisual reports on natural gas flows and infrastructure\nIn-depth commentary on regulation and market structure\nQuantitative analysis of tariffs, contracts, prices, and system operations\n\nOur goal is to contribute to a better understanding of Mexico’s evolving energy sector by sharing clear, structured insights with professionals, policymakers, analysts, and decision-makers."
+  }
+]

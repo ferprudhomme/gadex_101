@@ -1,0 +1,21 @@
+---
+title: "Open System"
+listing:
+  id: blog-listings
+  contents: files_blog
+  feed: false
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: true
+---
+
+This blog is a space for commentary and analysis that advocates for open access to infrastructure, transparent data, competitive energy markets, and institutions that serve an open society.
+Through structured insight and public information, we aim to contribute to a more informed, efficient, and accountable energy sector in Mexico.
+
+::: {#blog-listings}
+:::
+

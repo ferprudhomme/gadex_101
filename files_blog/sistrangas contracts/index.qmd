@@ -1,0 +1,70 @@
+---
+title: "Firm Service Contract in SISTRANGAS"
+author: "Eduardo Prud'homme"
+date: "2025-03-28"
+categories: [Contracts, Capacity, SISTRANGAS]
+---
+
+A **firm service contract** in natural gas transportation is a binding agreement between a pipeline operator and a user (also known as a "shipper"). When a contract is **firm**, the operator is obligated to transport the shipper\'s gas up to a **Maximum Daily Quantity (MDQ)**, regardless of demand from other users. This guarantees that the shipper can move gas up to their contracted capacity---even during system congestion---ensuring **uninterrupted service**.
+
+Firm service contracts also grant **priority access** in case of operational disruptions, giving these shippers an advantage over those with **interruptible service contracts**. In essence, a firm contract secures **reserved pipeline capacity** with a high degree of reliability.
+
+### **Open Access & Capacity Allocation in Mexico\'s SISTRANGAS**
+
+In Mexico, the **SISTRANGAS** (Integrated Natural Gas Transportation and Storage System), operated by **CENAGAS**, has allowed shippers to reserve capacity since its first **open season** in 2017. During this process, each participating user was allocated an **MDQ**---a contractual parameter measured in energy terms that, when managed effectively, ensures **flexible and continuous supply**.
+
+After the initial capacity allocation, consumers had the option to:
+
+-   **Become direct SISTRANGAS users** (entering a contract with CENAGAS).
+
+-   **Transfer their capacity to intermediaries** (gas marketers specializing in North America\'s complex supply logistics).
+
+Recently, **CENAGAS launched a contract renewal process**, ensuring service continuity for existing users and consumers. [Learn more here.](https://boletin-gestor.cenagas.gob.mx/portal/programa_de_renovacion_contractual_2023.html)
+
+### **How Shippers & Consumers Benefit**
+
+-   **Shippers** can use their reserved capacity to **secure supply for their own needs** or to serve their clients.
+
+-   **Consumers** (whether or not they act as shippers) can **switch suppliers freely** under Mexico\'s **unbundled market structure**, preventing them from being captive to a single pipeline owner.
+
+Thanks to **open access**, firm contracts, and post-2017 renewals, end-users---historically dependent on **PEMEX\'s monopoly**---now have direct or indirect access to pipeline routes.
+
+### **Key Details on Contract Renewals**
+
+-   The renewal process **only extends or terminates** existing contracts---**no changes** will be made to:
+
+    -   Reserved capacity (MDQ)
+
+    -   Primary injection/withdrawal points
+
+-   However, the current **capacity allocation structure warrants review**.
+
+### **Who Holds the Capacity? A Snapshot**
+
+-   **30 total users** (mostly gas marketers supplying multiple clients across SISTRANGAS).
+
+-   **PEMEX Transformación Industrial (PTRI)** remains the **dominant shipper**, despite market liberalization.
+
+-   Some large consumers (e.g., **Braskem Idesa**) manage their own transportation contracts.
+
+### **Regionalization & Contract Distribution**
+
+-   SISTRANGAS can be divided into **tariff zones** (based on 2015 classifications).
+
+-   Each shipper\'s **injection/withdrawal nodes** indicate their market reach.
+
+-   **45 active contracts** (color-coded below), mostly held by **PEMEX and CFE**.
+
+### **Contracted Capacities: Who Leads?**
+
+-   The largest firm capacity (**6.8 Bcf/day total**) is held under **contract SBF/002/16**---belonging to **PEMEX TRI**.
+
+-   Only **6.3 Bcf/day** was allocated via open season, suggesting **CENAGAS has awarded additional firm capacity outside standard procedures**.
+
+### **Contract Expirations: What\'s Next?**
+
+Most active contracts **expire by mid-2023**, with very few long-term agreements in place. This raises questions about **future capacity allocation strategies**.
+
+### **Final Insight**
+
+While Mexico\'s gas market has progressed since 2014, **PEMEX still dominates**. The renewal process will shape whether new players gain more influence---or if legacy shippers maintain control.

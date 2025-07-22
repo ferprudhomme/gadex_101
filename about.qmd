@@ -1,0 +1,40 @@
+---
+title: "Eduardo Prud'homme"
+image: profile.jpg
+about:
+  template: marquee
+  image-width: 25em
+  image-shape: rectangle
+ 
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://x.com/eprudhomme
+    - icon: github
+      text: Github
+      href: https://github.com/ferprudhomme
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/eduardo-prud-homme-11967636
+---
+
+Eduardo Prud'homme is a Partner at Gadex: Energy Intelligence, specializing in structural analysis of Mexico's natural gas and power markets. With a unique blend of experience as a former pipeline network operator and deep expertise in ratemaking and regulatory economics, Eduardo provides data-driven insights into infrastructure, system operations, tariffs, and market design. When he's not building quantitative models or writing analytical content, he enjoys cycling and walking with his Labrador and Border Collie.
+
+## Education
+
+El Colegio de México (Colmex) --- Mexico City, Mexico\
+Master's in Economics \| September 1994 -- June 1996
+
+National Autonomous University of Mexico (UNAM) --- Mexico City, Mexico\
+Bachelor's in Actuarial Science \| November 1989 -- April 1993
+
+## Experience
+
+Gadex \| Chief Officer \| February 2019 to the present
+
+Natural Gas National Control Center (CENAGAS)\
+Chief Officer, Independent System Operator \| July 2015 - February 2019
+
+Energy Regulatory Commission (CRE)
+
+Chief Economist - Director of Tariffs \| March 2001 -- June 2015

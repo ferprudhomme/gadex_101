@@ -1,0 +1,31 @@
+---
+title: "Natural Gas Market Evolution Since December 2017"
+author: "Eduardo Prud’homme"
+date: "2025-04-15"
+categories: [SISTRANGAS]
+---
+
+
+## Introduction
+
+A structural shift began in Mexico’s natural gas industry with the implementation of market liberalization policies. This included the unbundling of transportation and marketing activities, the introduction of open access and capacity reservation mechanisms, and the gradual removal of price regulation. Since December 2017, market data has reflected persistent changes in system dynamics. Flow records, pricing trends, capacity utilization, and node behavior reveal several trends that can be classified as structural.
+
+## Flow Patterns and Infrastructure Usage
+
+One of the most relevant patterns is the sustained shift in injection behavior at northern border points, particularly interconnections with Waha. The price spread between Waha and Henry Hub, along with dispatch conditions within the SISTRANGAS system, has directly influenced daily capacity allocation and infrastructure usage.
+
+### 🔹 Suggested Plot 1: Cross-border injection volumes (Waha, Agua Dulce, etc.)
+
+Route Concentration and Operational Efficiency
+
+CENAGAS programming reports show an increasing concentration of flows along specific corridors, while other available routes exhibit repeated underutilization. When cross-referenced with regional demand levels and contracted capacities, the data points to a reallocation of supply routes with operational implications.
+
+🔹 Suggested Plot 3: Utilization rates by transport zone or route (stacked or line chart)
+
+Regulatory Adjustments
+
+Updates to tariff schemes, access criteria, and permit issuance have introduced additional market-shaping variables. However, the evidence suggests that price signals and physical availability of capacity remain the primary drivers of system behavior.
+
+Conclusion
+
+The ongoing changes are better explained by structural conditions than by short-term or isolated events. Continued analysis of these variables is essential to anticipate operational risks, evaluate economic efficiency, and inform regulatory adjustments grounded in actual system performance.

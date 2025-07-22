@@ -1,0 +1,671 @@
+---
+title: "Natural Gas Dashboard – April 22, 2025"
+format:
+  dashboard:
+    orientation: rows
+    logo: images/gadex_logo.png
+---
+
+```{r}
+#| echo: false
+#| results: hide
+library(pacman)
+
+# Use pacman to load and install the required packages
+pacman::p_load(
+  dplyr,
+  flextable,
+  forecast,
+  ggplot2,
+  ggsci,
+  ggthemes,
+  gt,# For data visualization
+  kableExtra,
+  leaflet,
+  lubridate,
+  purrr,
+  pdftools,
+  plotly,
+  Polychrome,
+  readr, # For reading and writing data
+  readxl,
+  reactable,
+  sf,
+  shiny,
+  stringr,
+  tidyverse,
+  tidyr,
+  writexl,
+  xts
+  )
+```
+
+```{r}
+#| echo: false
+#| results: hide
+source("theme_bloom.R")
+```
+
+```{r}
+#| echo: false
+#| results: hide
+base_colors <- c("black","dodgerblue","gray30","turquoise","gray65","seagreen3")
+```
+
+```{r}
+#| echo: false
+#| results: hide
+sched_by_type <- readRDS("inputs/sched_by_type.rds")
+sched_effe <- readRDS("inputs/qt11_05_sched_effe.rds")
+leaflet_map <- readRDS("inputs/qt11_07_leaflet_map.rds")
+```
+
+# Intro
+
+##  {.sidebar}
+
+## Overview {width="40%"}
+
+```{r}
+#| title: Sistrangas receipt locations
+```
+
+##  {width="60%"}
+
+###  {height="50%"}
+
+```{r}
+#| title: Sistrangas receipt locations
+leaflet_map
+```
+
+###  {height="50%"}
+
+```{r}
+#| title: Sistrangas receipt locations
+#| fig-width: 5
+#| fig-asp: 0.7
+
+reactable(sched_effe)
+```
+
+# SISTRANGAS Glimpse
+
+##  {.sidebar}
+
+**Scheduled Flows**
+
+**Pre-arranged quantities** of natural gas scheduled to flow through pipeline locations during a **commercial gas day**.
+
+Each tab displays a combination of nodes, reflecting different supply sources:
+
+• **Domestic**: originating from processing plants and production fields
+
+• **Imported**: delivered via direct cross-border interconnections or through other pipelines developed within Mexico.
+
+Plots prepared by GADEX using information from CENAGAS.
+
+
+
+
+
+There is an interactive dashboard available to GADEX and ENIX patrons.
+
+Contact: eduardo.prudhomme\@gadex.mx
+
+```{r}
+#| echo: false
+#| results: hide
+plot_key_loc <- readRDS("inputs/qt11_04_plot_key_loc.rds")
+plot_makeups <- readRDS("inputs/qt11_04_plot_makeups.rds")
+
+plot_smp <- readRDS("inputs/qt11_05_plot_smp.rds")
+plot_typesp <- readRDS("inputs/qt11_05_plot_typesp.rds")
+sched_tdy_smp <- readRDS("inputs/qt11_05_sched_tdy_smp.rds")
+sched_by_type <- readRDS("inputs/qt11_05_sched_by_type.rds")
+
+```
+
+##  {.tabset}
+
+### Selected nodes
+
+#### 
+
+```{r}
+#| title: Today's selection
+sched_tdy_smp
+```
+
+```{r}
+#| title: Makeups
+plot_makeups
+```
+
+#### 
+
+```{r}
+#| title: Day by day
+plot_key_loc
+```
+
+```{r}
+#| title: Average by month
+plot_smp
+```
+
+### Selected source
+
+####
+
+```{r}
+#| title: Today's selection
+sched_by_type[["border"]]
+```
+
+
+#### 
+
+```{r}
+#| title: Today's selection
+plot_typesp
+```
+
+### Tafiff Zones
+
+#### 
+
+```{r}
+#| title: Today's selection
+plots_zonesp <- readRDS("inputs/qt11_06_plots_zonesp.rds")
+
+plots_zonesp
+```
+
+
+#### 
+
+```{r}
+#| title: Today's selection
+sched_by_zone_plot <- readRDS("inputs/qt11_06_sched_by_zone_plot.rds")
+
+sched_by_zone_plot
+```
+
+```{r}
+#| title: Today's selection
+sched_by_zone_stacked_plot <- readRDS("inputs/qt11_06_sched_by_zone_stacked_plot.rds")
+
+sched_by_zone_stacked_plot
+```
+
+
+
+### Tab 4
+
+#### 
+
+
+
+#### 
+
+
+
+# Sistrangas {orientation="rows"}
+
+## Sections {.tabset}
+
+### General {orientation="columns"}
+
+####  {width="30%"}
+
+
+####  {width="30%"}
+
+
+### Processing plants {orientation="rows"}
+
+####  {width="30%"}
+
+
+####  {width="30%"}
+
+```{r}
+plots_by_type <- readRDS("files_talks/talk_01/inputs/plots_by_type.rds")
+
+plots_by_type[["Processing plant"]]
+```
+
+```{r}
+sched_by_type[["Processing plant"]]
+
+```
+
+####  {width="40%"}
+
+```{r}
+#| title: Processing plant cycles
+
+
+```
+
+### Cycles
+
+### Info {orientation="columns"}
+
+```{r}
+#| title: Sistrangas receipt locations
+#| fig-width: 5
+#| fig-asp: 0.7
+nodes_rec_tab <- readRDS("inputs/qt11_01_nodes_rec_tab.rds")
+
+reactable(nodes_rec_tab)
+```
+
+
+# Scheduled Flows
+
+##  {.sidebar}
+
+**Scheduled Flows**
+
+**Pre-arranged quantities** of natural gas scheduled to flow through pipeline locations during a **commercial gas day**.
+
+Each tab displays a combination of nodes, reflecting different supply sources:
+
+• **Domestic**: originating from processing plants and production fields
+
+• **Imported**: delivered via direct cross-border interconnections or through other pipelines developed within Mexico.
+
+Plots prepared by GADEX using information from CENAGAS.
+
+
+
+
+
+There is an interactive dashboard available to GADEX and ENIX patrons.
+
+Contact: eduardo.prudhomme\@gadex.mx
+
+```{r}
+#| echo: false
+#| results: hide
+plots_sched <- readRDS("inputs/in01/qt11_03_plots_sched.rds")
+
+```
+
+##  {.tabset}
+
+### Tab 1
+
+#### 
+
+```{r}
+#| title: V025 Cactus
+ply01 <- make_plotly_A(plots_sched[["V025"]])
+
+ply01
+```
+
+```{r}
+#| title: V045 Mendoza
+ply02 <- make_plotly_A(plots_sched[["V045"]])
+
+ply02
+```
+
+#### 
+
+```{r}
+#| title: V061 Ramones
+ply03 <- make_plotly_A(plots_sched[["V061"]])
+ply03
+```
+
+```{r}
+#| title: V076 Gaza (Gasoducto Zapotlanejo)
+ply04 <- make_plotly_A(plots_sched[["V076"]])
+ply04
+```
+
+### Tab 2
+
+#### 
+
+```{r}
+#| title: V9B6 Burgos
+ply01 <- make_plotly_A(plots_sched[["V9B6"]])
+
+ply01
+```
+
+```{r}
+#| title: V042 Playuela
+ply02 <- make_plotly_A(plots_sched[["V042"]])
+
+ply02
+```
+
+#### 
+
+```{r}
+#| title: V032 Kinder Morgan Border
+ply03 <- make_plotly_A(plots_sched[["V032"]])
+ply03
+```
+
+```{r}
+#| title: V062 El Sauz
+ply04 <- make_plotly_A(plots_sched[["V062"]])
+ply04
+```
+
+### Tab 3
+
+#### 
+
+```{r}
+#| title: V907 La Venta
+ply01 <- make_plotly_A(plots_sched[["V907"]])
+
+ply01
+```
+
+```{r}
+#| title: V056 Campo Nejo
+ply02 <- make_plotly_A(plots_sched[["V056"]])
+
+ply02
+```
+
+#### 
+
+```{r}
+#| title: V067 Energy Transfer
+ply03 <- make_plotly_A(plots_sched[["V067"]])
+ply03
+```
+
+```{r}
+#| title: V030 Gloria a Dios
+ply04 <- make_plotly_A(plots_sched[["V030"]])
+ply04
+```
+
+### Tab 4
+
+#### 
+
+```{r}
+#| title: V908 Matapionche
+ply01 <- make_plotly_A(plots_sched[["V908"]])
+
+ply01
+```
+
+```{r}
+#| title: V036 Monclova
+ply02 <- make_plotly_A(plots_sched[["V036"]])
+
+ply02
+```
+
+#### 
+
+```{r}
+#| title: V033 Tennessee
+ply03 <- make_plotly_A(plots_sched[["V033"]])
+ply03
+```
+
+```{r}
+#| title: V074 Montegrande
+ply04 <- make_plotly_A(plots_sched[["V074"]])
+ply04
+```
+
+
+
+# Nomination Cycles
+
+##  {.sidebar}
+
+**Nomination Cycles**
+
+**Nominated** volumes of natural gas submitted during each phase of the commercial gas day cycle, organized by pipeline location..
+
+Each tab displays nodes according the tariff zone they belong
+
+Plots prepared by GADEX using information from CENAGAS.
+
+
+
+
+
+There is an interactive dashboard available to GADEX and ENIX patrons.
+
+Contact: eduardo.prudhomme\@gadex.mx
+
+##  {.tabset}
+
+### Zone 1 / Zone 3
+
+#### 
+
+```{r}
+#| title: Z1- Gloria a Dios
+plots_nomina <- readRDS("inputs/qt11_02_plots_nomina.rds")
+
+plyV030 <- make_plotly_B(plots_nomina[["V030"]])
+plyV030
+```
+
+```{r}
+#| title: Z1- Leon Guzman 
+plyV078 <- make_plotly_B(plots_nomina[["V078"]])
+plyV078
+```
+
+#### 
+
+```{r}
+#| title: Z3- Kinder Morgan MTY 
+plyV037 <- make_plotly_B(plots_nomina[["V037"]])
+plyV037
+```
+
+```{r}
+#| title: Z3- Ramones Fase 1 
+plyV061 <- make_plotly_B(plots_nomina[["V061"]])
+plyV061
+```
+
+### Zone 3
+
+#### 
+
+```{r}
+#| title: Kinder Morgan Border 
+plyV032 <- make_plotly_B(plots_nomina[["V032"]])
+plyV032
+```
+
+```{r}
+#| title: Energy Transfer
+plyV067 <- make_plotly_B(plots_nomina[["V067"]])
+plyV067
+```
+
+#### 
+
+```{r}
+#| title: Tennessee
+plyV033 <- make_plotly_B(plots_nomina[["V033"]])
+plyV033
+```
+
+```{r}
+#| title: TETCO
+plyV034 <- make_plotly_B(plots_nomina[["V034"]])
+plyV034
+```
+
+### Zone 3 / Zone 4
+
+#### 
+
+```{r}
+#| title: Z3- Monclova
+plyV036 <- make_plotly_B(plots_nomina[["V036"]])
+plyV036
+```
+
+```{r}
+#| title: Z3- Burgos
+plyV9B6 <- make_plotly_B(plots_nomina[["V9B6"]])
+plyV9B6
+```
+
+#### 
+
+```{r}
+#| title: Z4- Campo Nejo
+plyV056 <- make_plotly_B(plots_nomina[["V056"]])
+plyV056
+```
+
+```{r}
+#| title: Z4- Mareografo
+plyV059 <- make_plotly_B(plots_nomina[["V059"]])
+plyV059
+```
+
+### Zone 5
+
+#### 
+
+```{r}
+#| title: El Sauz
+plyV062 <- make_plotly_B(plots_nomina[["V062"]])
+plyV062
+```
+
+```{r}
+#| title: Montegrande 
+plyV074 <- make_plotly_B(plots_nomina[["V074"]])
+plyV074
+```
+
+#### 
+
+```{r}
+#| title: CPG Poza Rica 
+plyV905 <- make_plotly_B(plots_nomina[["V905"]])
+plyV905
+```
+
+```{r}
+#| title: Raudal 
+plyV051 <- make_plotly_B(plots_nomina[["V051"]])
+plyV051
+```
+
+### Zone 6 / Zone 7
+
+####
+
+```{r}
+#| title: Z6- El Castillo
+plyV918 <- make_plotly_B(plots_nomina[["V918"]])
+plyV918
+```
+
+```{r}
+#| title: Z6- Gasoducto Zapotlanejo 
+plyV076 <- make_plotly_B(plots_nomina[["V076"]])
+plyV076
+```
+
+####
+
+```{r}
+#| title: Z7- PEP Mendoza
+plyV045 <- make_plotly_B(plots_nomina[["V045"]])
+plyV045
+```
+
+```{r}
+#| title: Z7- Playuela 
+plyV042 <- make_plotly_B(plots_nomina[["V042"]])
+plyV042
+```
+
+### Zone 7 / Zone 8
+
+####
+
+```{r}
+#| title: Z7- Matapionche
+plyV908 <- make_plotly_B(plots_nomina[["V908"]])
+plyV908
+```
+
+```{r}
+#| title: Z8- La Venta
+plyV042 <- make_plotly_B(plots_nomina[["V042"]])
+plyV042
+```
+
+####
+
+```{r}
+#| title: Z8- Cactus - Nuevo Pemex
+plyV025 <- make_plotly_B(plots_nomina[["V025"]])
+plyV025
+```
+
+
+# prices {orientation="rows"}
+
+## Value boxes {height="25%"}
+
+```{r}
+#| label: calculate-values
+lowest_mileage_cty <- mpg |>
+filter(cty == min(cty)) |>
+distinct(cty) |>
+pull(cty)
+
+highest_mileage_cty <- mpg |>
+filter (cty == max(cty)) |>
+distinct(cty) |>
+pull (cty)
+
+rounded_mean_city_mileage <- mpg |>
+  summarize(round(mean(cty), 2)) |>
+  pull()
+```
+
+```{r}
+#| content: valuebox
+#| title: "Least efficient"
+#| icon: fuel-pump-fill
+#| color: danger
+list(
+value = paste(lowest_mileage_cty, "mpg")
+)
+
+```
+
+```{r}
+#| content: valuebox
+#| title: "Most efficient"
+#| icon: fuel-pump
+#| color: success
+list(
+value = paste(highest_mileage_cty, "mpg")
+)
+
+```
+
+## El Encino

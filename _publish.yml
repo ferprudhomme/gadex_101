@@ -1,0 +1,6 @@
+- source: project
+  netlify:
+    - id: e6a5cea5-b319-4c8a-96f1-698bc7875903
+      url: https://gadex-insights.netlify.app
+    - id: b83a9258-87ee-4ff1-ab66-696370631d04
+      url: https://wonderful-granita-1d69f6.netlify.app

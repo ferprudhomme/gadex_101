@@ -1,0 +1,44 @@
+---
+title: "Some concepts (1)"
+date: "2025-05-10"
+categories: [NAESB]
+---
+
+# The logistics operational workflow.
+
+Nominations commence the gas flow in the pipeline. They encompass the request for the initiation of the transportation service. They specify the receipt and delivery locations for the request.
+
+The receiving position is the point at which gas is transferred from the upstream pipeline to the carrying pipeline. The delivery site is the point when gas is transferred from the carrying pipeline to the downstream pipeline. Nominations encompass standard transportation, stipulations for supplementary fuel, and the notion of economic cycles.
+
+```{r}
+#| echo: false
+plot_key_loc <- readRDS("inputs/plot_key_loc.rds")
+
+plot_key_loc
+
+```
+
+Confirmations occur among linked pipes to guarantee that gas will be transported onto the pipeline and subsequently extracted in accordance with the shipper's nomination. The verifying parties utilize the information supplied in the nomination to reconcile the transactions that traverse the interconnect.
+
+Scheduling involves the pipeline operator assessing the available gas flow against the required gas flow and organizing the requests in accordance with pipeline limitations. Segmentation and flow-day redirection are also addressed in Scheduling.
+
+## Make-up
+
+A Make-up is a mechanism in which shipper brings gas onto pipeline in case of “imbalance due-pipeline” because shipper received more gas off of pipeline than it delivered onto pipeline.
+
+```{r}
+#| echo: false
+plot_makeups <- readRDS("inputs/plot_makeups.rds")
+
+plot_makeups
+
+```
+
+## Source Type
+
+```{r}
+#| echo: false
+plots_by_type <- readRDS("inputs/plots_by_type.rds")
+
+plots_by_type[["Processing plant"]]
+```

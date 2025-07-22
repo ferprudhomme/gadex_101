@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/index_talks.html",
+    "items": [
+      "/files_talks/talk_01/index.html",
+      "/files_talks/post-with-code/index.html",
+      "/files_talks/policy/index.html"
+    ]
+  },
+  {
+    "listing": "/index_blog.html",
+    "items": [
+      "/files_blog/2017 structural change/index.html",
+      "/files_blog/modern energy/index.html",
+      "/files_blog/sistrangas contracts/index.html"
+    ]
+  }
+]
