@@ -60,34 +60,6 @@ sched_effe <- readRDS("inputs/qt11_05_sched_effe.rds")
 leaflet_map <- readRDS("inputs/qt11_07_leaflet_map.rds")
 ```
 
-# Intro
-
-##  {.sidebar}
-
-## Overview {width="40%"}
-
-```{r}
-#| title: Sistrangas receipt locations
-```
-
-##  {width="60%"}
-
-###  {height="50%"}
-
-```{r}
-#| title: Sistrangas receipt locations
-leaflet_map
-```
-
-###  {height="50%"}
-
-```{r}
-#| title: Sistrangas receipt locations
-#| fig-width: 5
-#| fig-asp: 0.7
-
-reactable(sched_effe)
-```
 
 # SISTRANGAS Glimpse
 
@@ -104,10 +76,6 @@ Each tab displays a combination of nodes, reflecting different supply sources:
 • **Imported**: delivered via direct cross-border interconnections or through other pipelines developed within Mexico.
 
 Plots prepared by GADEX using information from CENAGAS.
-
-
-
-
 
 There is an interactive dashboard available to GADEX and ENIX patrons.
 
@@ -138,8 +106,8 @@ sched_tdy_smp
 ```
 
 ```{r}
-#| title: Makeups
-plot_makeups
+#| title: Sistrangas receipt locations
+leaflet_map
 ```
 
 #### 
@@ -156,13 +124,12 @@ plot_smp
 
 ### Selected source
 
-####
+#### 
 
 ```{r}
 #| title: Today's selection
 sched_by_type[["border"]]
 ```
-
 
 #### 
 
@@ -182,7 +149,6 @@ plots_zonesp <- readRDS("inputs/qt11_06_plots_zonesp.rds")
 plots_zonesp
 ```
 
-
 #### 
 
 ```{r}
@@ -199,17 +165,11 @@ sched_by_zone_stacked_plot <- readRDS("inputs/qt11_06_sched_by_zone_stacked_plot
 sched_by_zone_stacked_plot
 ```
 
-
-
 ### Tab 4
 
 #### 
 
-
-
 #### 
-
-
 
 # Sistrangas {orientation="rows"}
 
@@ -219,14 +179,11 @@ sched_by_zone_stacked_plot
 
 ####  {width="30%"}
 
-
 ####  {width="30%"}
-
 
 ### Processing plants {orientation="rows"}
 
 ####  {width="30%"}
-
 
 ####  {width="30%"}
 
@@ -262,7 +219,6 @@ nodes_rec_tab <- readRDS("inputs/qt11_01_nodes_rec_tab.rds")
 reactable(nodes_rec_tab)
 ```
 
-
 # Scheduled Flows
 
 ##  {.sidebar}
@@ -278,10 +234,6 @@ Each tab displays a combination of nodes, reflecting different supply sources:
 • **Imported**: delivered via direct cross-border interconnections or through other pipelines developed within Mexico.
 
 Plots prepared by GADEX using information from CENAGAS.
-
-
-
-
 
 There is an interactive dashboard available to GADEX and ENIX patrons.
 
@@ -424,8 +376,6 @@ ply04 <- make_plotly_A(plots_sched[["V074"]])
 ply04
 ```
 
-
-
 # Nomination Cycles
 
 ##  {.sidebar}
@@ -437,10 +387,6 @@ ply04
 Each tab displays nodes according the tariff zone they belong
 
 Plots prepared by GADEX using information from CENAGAS.
-
-
-
-
 
 There is an interactive dashboard available to GADEX and ENIX patrons.
 
@@ -572,7 +518,7 @@ plyV051
 
 ### Zone 6 / Zone 7
 
-####
+#### 
 
 ```{r}
 #| title: Z6- El Castillo
@@ -586,7 +532,7 @@ plyV076 <- make_plotly_B(plots_nomina[["V076"]])
 plyV076
 ```
 
-####
+#### 
 
 ```{r}
 #| title: Z7- PEP Mendoza
@@ -602,7 +548,7 @@ plyV042
 
 ### Zone 7 / Zone 8
 
-####
+#### 
 
 ```{r}
 #| title: Z7- Matapionche
@@ -616,14 +562,13 @@ plyV042 <- make_plotly_B(plots_nomina[["V042"]])
 plyV042
 ```
 
-####
+#### 
 
 ```{r}
 #| title: Z8- Cactus - Nuevo Pemex
 plyV025 <- make_plotly_B(plots_nomina[["V025"]])
 plyV025
 ```
-
 
 # prices {orientation="rows"}
 

@@ -1,0 +1,1 @@
+Sitemap: https://gadex-insights.netlify.app/sitemap.xml

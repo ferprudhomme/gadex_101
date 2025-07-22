@@ -13,9 +13,7 @@ page-layout: full
 title-block-banner: true
 ---
 
-This blog is a space for commentary and analysis that advocates for open access to infrastructure, transparent data, competitive energy markets, and institutions that serve an open society.
-Through structured insight and public information, we aim to contribute to a more informed, efficient, and accountable energy sector in Mexico.
+This blog is a space for commentary and analysis that advocates for open access to infrastructure, transparent data, competitive energy markets, and institutions that serve an open society. Through structured insight and public information, GADEX aims to contribute to a more informed, efficient, and accountable energy sector in Mexico.
 
 ::: {#blog-listings}
 :::
-

@@ -1,0 +1,115 @@
+---
+title: "Understanding Gas Nominations and Commercial Cycles"
+author: "Eduardo Prud’homme"
+date: "2025-07-22"
+categories: [SISTRANGAS, NAESB]
+image: "image.jpg"
+---
+
+```{r}
+#| echo: false
+#| results: hide
+
+library(pacman)
+
+# Use pacman to load and install the required packages
+pacman::p_load(
+  dplyr,
+  flextable,
+  ggplot2,
+  ggiraph,
+  htmltools,
+  kableExtra,
+  knitr,
+  lubridate,
+  magrittr,
+  officer,
+  purrr,
+  RColorBrewer,
+  readr, # For reading and writing data
+  readxl,   # For reading Excel files
+  scales,
+  sf,
+  skimr,
+  stringr,
+  tidyverse,
+  tidyr,
+  webshot2,
+  writexl
+  )
+
+getwd()
+
+plots_nomina <- readRDS("index_files/qt11_02_plots_nomina_copy.rds")
+```
+
+## Commercial Cycles and NAESB Protocols
+
+Natural gas scheduling in North America follows standardized commercial cycles defined by the North American Energy Standards Board (NAESB). These cycles structure how and when shippers submit nominations (requests to inject or withdraw gas) and how operators confirm and schedule these volumes. The main cycles are:
+
+• Timely Cycle: The primary scheduling window (day-ahead).
+
+• Evening Cycle: Allows for nomination revisions after the Timely cycle. in • Intraday Cycles 1–3: Provide opportunities to adjust flows closer to real time.
+
+CENAGAS has adopted these NAESB protocols to manage nominations in the Sistema de Transporte y Almacenamiento Nacional Integrado de Gas Natural (SISTRANGAS). Each cycle helps update the national operating program (POGN), aiming to match expected supply with demand as conditions evolve throughout the day.
+
+## The Case of Nodes V025 (Cactus) and V061 (Ramones)
+
+The chart below displays nominated energy flows (in TJ/day) at the injection point V025, broken down by commercial cycle, over the first half of 2025.
+
+```{r}
+#| echo: false
+plots_nomina[["V025"]]
+```
+
+Node V025 is the commercial injection point associated with the Cactus Gas Processing Complex (Complejo Procesador de Gas Cactus), Mexico’s largest and most critical gas processing facility. Located in Tabasco and operated by Pemex, the CACTUS plant processes significant volumes of wet gas from southeastern production fields, removing liquids and impurities before delivering dry natural gas into the national pipeline network. As such, V025 functions as a key upstream interface between field production and the SISTRANGAS. Given its strategic role, nomination patterns at V025 reflect both production performance and system-wide supply availability, making it one of the most important nodes for monitoring operational balance.
+
+```{r}
+#| echo: false
+plots_nomina[["V061"]]
+```
+
+Node V061 is the commercial injection point linked to Los Ramones Phase I, the starting segment of the Ramones pipeline system, Mexico’s most significant natural gas import and transport project. Located near Camargo, Tamaulipas, V061 receives large volumes of U.S. natural gas through the NET Mexico pipeline, which connects to the U.S. grid at the Eagle Ford shale region. As the primary northern injection hub into the SISTRANGAS, Node V061 plays a critical role in ensuring supply availability for central and southern Mexico. Its nomination activity reflects cross-border trade flows and serves as a key indicator of Mexico’s reliance on imported natural gas.
+
+This information is central to how Mexico’s gas transmission system—managed by CENAGAS—ensures daily balance between supply and demand across its national pipeline network.
+
+## Operational Significance of Nominated Flows
+
+The plotted data show the nominated injection quantities at node V025 for each cycle. These values are crucial for assessing operational imbalances, which occur when actual injections deviate from system needs. Importantly:
+
+• Scheduled quantities represent flows that have been authorized by the operator (CENAGAS).
+
+• These flows must correspond to nominated deliveries downstream, or to previously settled imbalance transactions (e.g., paybacks or over-deliveries).
+
+If such a correspondence is missing, the injection creates a new operational imbalance—effectively gas entering the system without a planned destination or contractual justification.
+
+### Managing Imbalances
+
+To manage these discrepancies, CENAGAS applies balancing mechanisms, which may include:
+
+• Tolerance bands (permissible deviation margins),
+
+• Make-up withdrawals (planned future compensations), and
+
+• Imbalance charges (financial penalties or incentives to restore balance).
+
+Persistent or large mismatches can jeopardize system reliability, affect pressure conditions, and trigger costly interventions.
+
+## Conclusion
+
+Monitoring nominated flows across the NAESB commercial cycles—Timely, Evening, and Intraday 1–3—reveals important insights into how market participants respond to changing supply-demand dynamics throughout the gas day. In the plot, we observe that:
+
+• Most activity concentrates around the Timely and Evening cycles, reflecting proactive day-ahead planning.
+
+• Intraday nominations, while fewer, show the system’s flexibility to adapt to short-term fluctuations or unexpected events. These transactions are usually the prevailing operating signals.
+
+These patterns are also behavioral indicators of how shippers manage uncertainty, respond to market signals, and engage with CENAGAS’s programming process.
+
+Persistent discrepancies between nomination cycles or sudden shifts in intraday flows may signal emerging imbalances, strategy changes, or downstream issues. Thus, the temporal structure of nominations—not just their volume—is a key diagnostic tool. By analyzing when and how nominations are submitted, system operators and analysts can assess the quality of scheduling behavior, detect stress points in the network, and improve the accuracy of flow forecasts and balancing actions.
+
+Understanding these scheduling patterns helps ensure that the gas system remains secure, predictable, and economically efficient, even in the face of operational variability.
+
+**© 2025 GADEX Inteligencia en Energia S.C.\
+All rights reserved. This publication and its contents may not be reproduced, distributed, or transmitted in any form without prior written permission from GADEX.**
+
+*For further insights or inquiries, please contact me at eduardo.prudhomme\@gadex.mx*
